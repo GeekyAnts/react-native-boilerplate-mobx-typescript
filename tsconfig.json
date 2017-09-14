@@ -1,7 +1,5 @@
 {
 	"compilerOptions": {
-		"emitDecoratorMetadata": true,
-		"experimentalDecorators": true,
 		"target": "es2015",
 		"module": "es2015",
 		"moduleResolution": "node",
@@ -17,7 +15,6 @@
 		"noUnusedParameters": true,
 		"noUnusedLocals": true
 	},
-	"filesGlob": ["typings/index.d.ts", "src/**/*.ts", "src/**/*.tsx"],
 	"types": ["react", "react-native", "jest"],
 	"exclude": ["android", "App.js", "ios", "build", "node_modules"],
 	"compileOnSave": false

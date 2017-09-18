@@ -27,7 +27,7 @@
 	"scripts": {
 		"start": "npm run build && concurrently -r 'npm run watch' 'react-native-scripts start'",
 		"eject": "react-native-scripts eject",
-		"test": "node node_modules/jest/bin/jest.js --watch",
+		"jest": "node node_modules/jest/bin/jest.js --watch",
 		"watch": "npm run build -- -w",
 		"ios": "npm run build && concurrently -r 'npm run watch' 'react-native-scripts ios'",
 		"android": "npm run build && concurrently -r 'npm run watch' 'react-native-scripts android'",
@@ -35,7 +35,7 @@
 		"clean": "rimraf artifacts",
 		"build": "npm run clean && npm run tsc --",
 		"lint": "tslint src/**/*.ts",
-		"test": "tslint src/**/*.ts && eslint .",
+		"test": "jest && tslint src/**/*.ts && eslint .",
 		"precommit": "yarn test"
 	},
 	"jest": {

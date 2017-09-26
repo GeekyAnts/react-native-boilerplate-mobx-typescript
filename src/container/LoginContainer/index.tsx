@@ -37,7 +37,7 @@ export default class LoginContainer extends React.Component<Props, State> {
 				<Item error={form.emailError ? true : false}>
 					<Icon active name="person" />
 					<Input
-						placeholder="EMAIL"
+						placeholder="Email"
 						keyboardType="email-address"
 						ref={c => (this.emailInput = c)}
 						value={form.email}
@@ -48,7 +48,7 @@ export default class LoginContainer extends React.Component<Props, State> {
 				<Item error={form.passwordError ? true : false}>
 					<Icon active name="unlock" />
 					<Input
-						placeholder="PASSWORD"
+						placeholder="Password"
 						ref={c => (this.pwdinput = c)}
 						value={form.password}
 						onBlur={() => form.validatePassword()}

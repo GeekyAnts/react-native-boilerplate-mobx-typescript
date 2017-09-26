@@ -8,12 +8,12 @@ import getTheme from "../theme/components";
 import variables from "../theme/variables/platform";
 export interface Props {}
 export interface State {
-	isReady: boolean,
+	isReady: boolean;
 }
 export default function(stores) {
 	return class Setup extends React.Component<Props, State> {
 		state: {
-			isReady: boolean,
+			isReady: boolean;
 		};
 		constructor() {
 			super();

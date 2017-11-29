@@ -15,8 +15,8 @@ export default function(stores) {
 		state: {
 			isReady: boolean;
 		};
-		constructor() {
-			super();
+		constructor(props) {
+			super(props);
 			this.state = {
 				isReady: false,
 			};

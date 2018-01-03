@@ -1,0 +1,1 @@
+{"version":3,"file":"configureStore.js","sourceRoot":"","sources":["../../src/boot/configureStore.tsx"],"names":[],"mappings":"AAAA,OAAO,SAAS,MAAM,gCAAgC,CAAC;AACvD,OAAO,UAAU,MAAM,mCAAmC,CAAC;AAE3D,MAAM,CAAC,OAAO;IACb,MAAM,SAAS,GAAG,IAAI,SAAS,EAAE,CAAC;IAClC,MAAM,SAAS,GAAG,IAAI,UAAU,EAAE,CAAC;IAEnC,MAAM,CAAC;QACN,SAAS;QACT,SAAS;KACT,CAAC;AACH,CAAC"}

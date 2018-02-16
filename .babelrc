@@ -1,4 +1,8 @@
 {
-	"presets": ["babel-preset-expo"],
-	"plugins": ["transform-decorators-legacy"]
+  "presets": [
+    "react-native"
+  ],
+  "plugins": [
+    "transform-decorators-legacy"
+  ]
 }
